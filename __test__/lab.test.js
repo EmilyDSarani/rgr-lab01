@@ -23,10 +23,10 @@ describe('getArtist', () => {
 
 describe('getCap', () => {
   it('takes in a lowercase and returns a cap', async () => {
-    const noCap = ['a', 'b', 'c'];
+    const noCap = ['a', 'b', 'c', 'd', 'e', 'f', 'g'];
     
   
-    expect(getCap(noCap)).toEqual(['A', 'B', 'C']); 
+    expect(getCap(noCap)).toEqual(['A', 'B', 'C', 'D', 'E', 'F', 'G']); 
   });
       
 });
