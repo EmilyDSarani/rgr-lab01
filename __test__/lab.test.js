@@ -21,12 +21,12 @@ describe('getArtist', () => {
     
 });
 
-describe.skip('getCap', () => {
+describe('getCap', () => {
   it('takes in a lowercase and returns a cap', async () => {
-    const noCap = getCap['a', 'b', 'c'];
-    const newArr = noCap.toUpperCase();
+    const noCap = ['apple', 'ball', 'cat', 'dog', 'electric', 'farmer', 'goat'];
+    
   
-    expect(newArr[0]).toEqual(['A', 'B', 'C']); 
+    expect(getCap(noCap)).toEqual(['APPLE', 'BALL', 'CAT', 'DOG', 'ELECTRIC', 'GOAT']); 
   });
       
 });
