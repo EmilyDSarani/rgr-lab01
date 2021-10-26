@@ -1,5 +1,5 @@
 const getName = require ('../lab/name');
-const getNumbers = require ('../lab/push');
+const getArtist = require ('../lab/push');
 
 describe('getName', () => {
   it('takes in name property of an object', async () => {
@@ -9,11 +9,14 @@ describe('getName', () => {
 
 });
 
-describe('getNumber', () => {
-  it('takes in number property of an object and shows the push', async () => {
-    getNumbers[1, 2, 3, 4]; 
-    //expect(newArr).toEqual([1, 2, 3, 4]); 
+
+describe('getArtist', () => {
+  it('takes in an artist and shows a new array', async () => {
+    const artists = getArtist(['beyonce', 'pink']); 
+    const newArr = artists.push('taylor');
+    
+    expect(newArr).toEqual(['beyonce', 'pink', 'taylor']); 
   });
-  
+    
 });
 

@@ -1,8 +1,8 @@
-const getNumbers = () => {
-  const numbers = [1, 2, 3];
+function getArtist() {
+  const artists = ['beyonce', 'pink'];
+  const newArr = artists.push('taylor');
+  return newArr;
 
-  return numbers.push(4);
+}
 
-};
-
-module.exports = getNumbers;
+module.exports = getArtist;
