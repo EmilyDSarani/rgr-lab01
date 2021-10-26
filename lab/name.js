@@ -1,6 +1,7 @@
-const getName = (pink) => {
-    const pink = {name: 'pink', age: 42, job: singer}
-    getName(pink)
+const getName = () => {
+  const pink = { name: 'pink', age: 42, job: 'singer' };
+    
+  return pink.name;
 };
 
 module.exports = getName;
