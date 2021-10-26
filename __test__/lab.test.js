@@ -12,12 +12,11 @@ describe('getName', () => {
 });
 
 
-describe.skip('getArtist', () => {
+describe('getArtist', () => {
   it('takes in an artist and shows a new array', async () => {
-    const artists = getArtist['beyonce', 'pink']; 
-    const newArr = artists.push('taylor');
-
-    expect(newArr[0]).toEqual(['beyonce', 'pink', 'taylor']); 
+    const array = ['beyonce', 'pink']; 
+  
+    expect(getArtist(array, 'taylor')).toEqual(['beyonce', 'pink', 'taylor']); 
   });
     
 });

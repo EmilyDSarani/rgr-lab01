@@ -1,7 +1,6 @@
-const getArtist = () => {
-  const artists = ['beyonce', 'pink'];
-  const newArr = artists.push('taylor');
-  return newArr[0];
+const getArtist = (arr, item) => {
+  const newArr = [...arr, item];
+  return newArr;
 
 };
 
