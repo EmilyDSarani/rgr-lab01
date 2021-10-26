@@ -1,7 +1,6 @@
 const getName = () => {
-  const pink = { name: 'pink', age: 42, job: 'singer' };
-  const { name: nm } = pink; 
-  return nm;
+  const pink = 'pink';
+  return pink;
 };
 
 module.exports = getName;
