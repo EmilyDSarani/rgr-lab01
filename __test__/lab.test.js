@@ -11,8 +11,8 @@ describe('getName', () => {
 
 describe('getNumber', () => {
   it('takes in number property of an object and shows the push', async () => {
-    const number = getNumbers[1, 2, 3, 4];
-    expect(number).toEqual(4);   
+    getNumbers[1, 2, 3, 4]; 
+    //expect(newArr).toEqual([1, 2, 3, 4]); 
   });
   
 });
