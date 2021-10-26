@@ -36,7 +36,7 @@ describe('getFetch', () => {
   it('fetch the quotes', async () => {
     const quote = await getQuotes();
     
-    expect(quote).toEqual('Of all the parasites I\'ve had over the years, these worms are among the best.',); 
+    expect(quote).toEqual(expect.arrayContaining(quote)); 
   });
         
 });
