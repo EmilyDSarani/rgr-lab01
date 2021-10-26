@@ -7,9 +7,11 @@ const getCap = (arr) => {
   const newArr = [];
   for (const item of arr){
     const upperCase = item.toUpperCase();
-    newArr.push(upperCase);
+    newArr.push(upperCase); 
+    
+ 
   }
-  return newArr;
+  return newArr.filter((words) => !words.startsWith('F')); 
   //then an array method
  
 };
