@@ -11,7 +11,6 @@ describe('getName', () => {
 
 });
 
-
 describe('getArtist', () => {
   it('takes in an artist and shows a new array', async () => {
     const array = ['beyonce', 'pink']; 
