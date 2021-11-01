@@ -11,7 +11,7 @@ describe('getName', () => {
 
 });
 
-describe('getArtist', () => {
+describe('getPush', () => {
   it('takes in an artist and shows a new array', async () => {
     const array = ['beyonce', 'pink']; 
   
@@ -33,8 +33,9 @@ describe('getCap', () => {
 describe('getFetch', () => {
   it('fetch the quotes', async () => {
     const quote = await getQuotes();
-    
-    expect(quote).toEqual(expect.arrayContaining(quote)); 
+    const expectation = [expect.any(String)];
+    expect(quote).toEqual(expect.arrayContaining(expectation)); 
   });
-        
+  //rule of thumb, have the expect be something the function creates
+  //and have the expectation be something YOU create        
 });
