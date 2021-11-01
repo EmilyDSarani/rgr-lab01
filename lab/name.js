@@ -1,6 +1,5 @@
-const getName = () => {
-  const pink = 'pink';
-  return pink;
+const getName = (object) => {
+  return object['name'];
 };
 
 module.exports = getName;

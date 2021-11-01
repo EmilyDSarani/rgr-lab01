@@ -5,8 +5,8 @@ const getQuotes = require('../lab/fetch');
 
 describe('getName', () => {
   it('takes in name property of an object', async () => {
-    const object = getName({ name: 'pink' }); 
-    expect(object).toEqual('pink');   
+    const object = getName({ name: 'beyonce' }); 
+    expect(object).toEqual('beyonce');   
   });
 
 });
